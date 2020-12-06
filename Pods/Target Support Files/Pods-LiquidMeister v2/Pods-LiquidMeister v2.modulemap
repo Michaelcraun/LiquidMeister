@@ -1,0 +1,6 @@
+framework module Pods_LiquidMeister_v2 {
+  umbrella header "Pods-LiquidMeister v2-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,23 +7,100 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		512C585734A820C3FE774F56 /* Pods_LiquidMeister_v2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 583EFC7EA977E14C521E07B2 /* Pods_LiquidMeister_v2.framework */; };
+		9B22399E20F5438E00C2CBF6 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B22399D20F5438E00C2CBF6 /* NotificationManager.swift */; };
+		9B250E5D20ECC2C500841044 /* MailManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B250E5C20ECC2C500841044 /* MailManager.swift */; };
 		9B970C7120DFE24800689731 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B970C7020DFE24800689731 /* AppDelegate.swift */; };
-		9B970C7320DFE24800689731 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B970C7220DFE24800689731 /* ViewController.swift */; };
+		9B970C7320DFE24800689731 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B970C7220DFE24800689731 /* LoginVC.swift */; };
 		9B970C7620DFE24800689731 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B970C7420DFE24800689731 /* Main.storyboard */; };
-		9B970C7920DFE24800689731 /* LiquidMeister_v2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B970C7720DFE24800689731 /* LiquidMeister_v2.xcdatamodeld */; };
 		9B970C7B20DFE24B00689731 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B970C7A20DFE24B00689731 /* Assets.xcassets */; };
 		9B970C7E20DFE24B00689731 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B970C7C20DFE24B00689731 /* LaunchScreen.storyboard */; };
+		9B970C8820DFE2A400689731 /* Bottle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B970C8720DFE2A400689731 /* Bottle.swift */; };
+		9B970C8A20DFE2AE00689731 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B970C8920DFE2AE00689731 /* Customer.swift */; };
+		9B970C8C20DFE2B400689731 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B970C8B20DFE2B400689731 /* Recipe.swift */; };
+		9B970C8E20DFE2BD00689731 /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B970C8D20DFE2BD00689731 /* Inventory.swift */; };
+		9B970C9120DFE50300689731 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B970C9020DFE50300689731 /* DataManager.swift */; };
+		9B970C9320DFE55E00689731 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B970C9220DFE55E00689731 /* Constants.swift */; };
+		9B970C9620DFEEE900689731 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B970C9520DFEEE900689731 /* ArrayExtension.swift */; };
+		9B970C9820DFEF6800689731 /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B970C9720DFEF6800689731 /* DictionaryExtension.swift */; };
+		9B970C9C20E006E900689731 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B970C9B20E006E900689731 /* Item.swift */; };
+		9B970C9F20E00BAC00689731 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B970C9E20E00BAC00689731 /* UIViewExtension.swift */; };
+		9B970CA120E00E7900689731 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B970CA020E00E7900689731 /* HomeVC.swift */; };
+		9B970CA320E00F7A00689731 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B970CA220E00F7A00689731 /* GoogleService-Info.plist */; };
+		9B970CA620E1276300689731 /* Alertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B970CA520E1276300689731 /* Alertable.swift */; };
+		9B970CA820E127AB00689731 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B970CA720E127AB00689731 /* UIViewControllerExtension.swift */; };
+		9B970CAA20E1297C00689731 /* UIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B970CA920E1297C00689731 /* UIDeviceExtension.swift */; };
+		9B970CAC20E189D100689731 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B970CAB20E189D100689731 /* StringExtension.swift */; };
+		9B970CAE20E18CF100689731 /* LMTitleBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B970CAD20E18CF100689731 /* LMTitleBar.swift */; };
+		9B970CB420E27ABA00689731 /* IngredientCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B970CB320E27ABA00689731 /* IngredientCell.swift */; };
+		9B970CB620E2C57B00689731 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B970CB520E2C57B00689731 /* SettingsVC.swift */; };
+		9B970CB820E2C58400689731 /* LibraryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B970CB720E2C58400689731 /* LibraryVC.swift */; };
+		9BB2297820ED0D92003F8AB3 /* SlideInPresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB2297720ED0D92003F8AB3 /* SlideInPresentationAnimator.swift */; };
+		9BB2297A20ED0DAD003F8AB3 /* SlideInPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB2297920ED0DAD003F8AB3 /* SlideInPresentationController.swift */; };
+		9BB2297C20ED0DCB003F8AB3 /* SlideInPresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB2297B20ED0DCB003F8AB3 /* SlideInPresentationManager.swift */; };
+		9BD3B18520EFDDF100C3F0DE /* LMCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD3B18420EFDDF100C3F0DE /* LMCalculatorView.swift */; };
+		9BDC9D6220F116B200E6DC37 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDC9D6120F116B200E6DC37 /* Connection.swift */; };
+		9BFCC41920E3BFD900906711 /* LMTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFCC41820E3BFD900906711 /* LMTextField.swift */; };
+		9BFCC41B20E3C73F00906711 /* LMButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFCC41A20E3C73F00906711 /* LMButton.swift */; };
+		9BFCC41D20E3C9AD00906711 /* LMSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFCC41C20E3C9AD00906711 /* LMSegmentedControl.swift */; };
+		9BFCC41F20E4234E00906711 /* EditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFCC41E20E4234E00906711 /* EditVC.swift */; };
+		9BFCC42120E4686F00906711 /* LibraryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFCC42020E4686F00906711 /* LibraryCell.swift */; };
+		9BFCC42320E50FDE00906711 /* LMTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFCC42220E50FDE00906711 /* LMTextView.swift */; };
+		9BFCC42520E5394B00906711 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFCC42420E5394B00906711 /* RecipeCell.swift */; };
+		9BFCC42720E70E2400906711 /* LMPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFCC42620E70E2400906711 /* LMPickerView.swift */; };
+		9BFCC42920E7C36800906711 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFCC42820E7C36800906711 /* UITableViewExtension.swift */; };
+		9BFCC42B20E7F18100906711 /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFCC42A20E7F18100906711 /* DoubleExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		583EFC7EA977E14C521E07B2 /* Pods_LiquidMeister_v2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiquidMeister_v2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9315DC1C4D6A9FFD40CFCAF6 /* Pods-LiquidMeister v2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiquidMeister v2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiquidMeister v2/Pods-LiquidMeister v2.debug.xcconfig"; sourceTree = "<group>"; };
+		9B22399D20F5438E00C2CBF6 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		9B22399F20F594A500C2CBF6 /* LiquidMeister v2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "LiquidMeister v2.entitlements"; sourceTree = "<group>"; };
+		9B250E5C20ECC2C500841044 /* MailManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailManager.swift; sourceTree = "<group>"; };
 		9B970C6D20DFE24800689731 /* LiquidMeister v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LiquidMeister v2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B970C7020DFE24800689731 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9B970C7220DFE24800689731 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B970C7220DFE24800689731 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		9B970C7520DFE24800689731 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9B970C7820DFE24800689731 /* LiquidMeister_v2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LiquidMeister_v2.xcdatamodel; sourceTree = "<group>"; };
 		9B970C7A20DFE24B00689731 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B970C7D20DFE24B00689731 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B970C7F20DFE24B00689731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B970C8720DFE2A400689731 /* Bottle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bottle.swift; sourceTree = "<group>"; };
+		9B970C8920DFE2AE00689731 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		9B970C8B20DFE2B400689731 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		9B970C8D20DFE2BD00689731 /* Inventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventory.swift; sourceTree = "<group>"; };
+		9B970C9020DFE50300689731 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		9B970C9220DFE55E00689731 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9B970C9520DFEEE900689731 /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		9B970C9720DFEF6800689731 /* DictionaryExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryExtension.swift; sourceTree = "<group>"; };
+		9B970C9B20E006E900689731 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		9B970C9E20E00BAC00689731 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		9B970CA020E00E7900689731 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		9B970CA220E00F7A00689731 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9B970CA520E1276300689731 /* Alertable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alertable.swift; sourceTree = "<group>"; };
+		9B970CA720E127AB00689731 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		9B970CA920E1297C00689731 /* UIDeviceExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDeviceExtension.swift; sourceTree = "<group>"; };
+		9B970CAB20E189D100689731 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		9B970CAD20E18CF100689731 /* LMTitleBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMTitleBar.swift; sourceTree = "<group>"; };
+		9B970CB320E27ABA00689731 /* IngredientCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientCell.swift; sourceTree = "<group>"; };
+		9B970CB520E2C57B00689731 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		9B970CB720E2C58400689731 /* LibraryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryVC.swift; sourceTree = "<group>"; };
+		9BB2297720ED0D92003F8AB3 /* SlideInPresentationAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideInPresentationAnimator.swift; sourceTree = "<group>"; };
+		9BB2297920ED0DAD003F8AB3 /* SlideInPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideInPresentationController.swift; sourceTree = "<group>"; };
+		9BB2297B20ED0DCB003F8AB3 /* SlideInPresentationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideInPresentationManager.swift; sourceTree = "<group>"; };
+		9BD3B18420EFDDF100C3F0DE /* LMCalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMCalculatorView.swift; sourceTree = "<group>"; };
+		9BDC9D6120F116B200E6DC37 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		9BFCC41820E3BFD900906711 /* LMTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMTextField.swift; sourceTree = "<group>"; };
+		9BFCC41A20E3C73F00906711 /* LMButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMButton.swift; sourceTree = "<group>"; };
+		9BFCC41C20E3C9AD00906711 /* LMSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMSegmentedControl.swift; sourceTree = "<group>"; };
+		9BFCC41E20E4234E00906711 /* EditVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditVC.swift; sourceTree = "<group>"; };
+		9BFCC42020E4686F00906711 /* LibraryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryCell.swift; sourceTree = "<group>"; };
+		9BFCC42220E50FDE00906711 /* LMTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMTextView.swift; sourceTree = "<group>"; };
+		9BFCC42420E5394B00906711 /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		9BFCC42620E70E2400906711 /* LMPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMPickerView.swift; sourceTree = "<group>"; };
+		9BFCC42820E7C36800906711 /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		9BFCC42A20E7F18100906711 /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
+		B66AE5E1D365FE92C1C217BB /* Pods-LiquidMeister v2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiquidMeister v2.release.xcconfig"; path = "Pods/Target Support Files/Pods-LiquidMeister v2/Pods-LiquidMeister v2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +108,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				512C585734A820C3FE774F56 /* Pods_LiquidMeister_v2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12F749BA7A180AB7AD2C4726 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9315DC1C4D6A9FFD40CFCAF6 /* Pods-LiquidMeister v2.debug.xcconfig */,
+				B66AE5E1D365FE92C1C217BB /* Pods-LiquidMeister v2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		525648904C38021A6D8DD749 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				583EFC7EA977E14C521E07B2 /* Pods_LiquidMeister_v2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9B970C6420DFE24800689731 = {
 			isa = PBXGroup;
 			children = (
 				9B970C6F20DFE24800689731 /* LiquidMeister v2 */,
 				9B970C6E20DFE24800689731 /* Products */,
+				12F749BA7A180AB7AD2C4726 /* Pods */,
+				525648904C38021A6D8DD749 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +153,108 @@
 		9B970C6F20DFE24800689731 /* LiquidMeister v2 */ = {
 			isa = PBXGroup;
 			children = (
+				9B22399F20F594A500C2CBF6 /* LiquidMeister v2.entitlements */,
+				9BB2297620ED0D72003F8AB3 /* Presentation */,
+				9B970CA420E1275100689731 /* Protocols */,
+				9B970C8520DFE26900689731 /* Controller */,
+				9B970C8620DFE28100689731 /* Data */,
+				9B970C9D20E00A6400689731 /* View */,
 				9B970C7020DFE24800689731 /* AppDelegate.swift */,
-				9B970C7220DFE24800689731 /* ViewController.swift */,
 				9B970C7420DFE24800689731 /* Main.storyboard */,
 				9B970C7A20DFE24B00689731 /* Assets.xcassets */,
 				9B970C7C20DFE24B00689731 /* LaunchScreen.storyboard */,
 				9B970C7F20DFE24B00689731 /* Info.plist */,
-				9B970C7720DFE24800689731 /* LiquidMeister_v2.xcdatamodeld */,
+				9B970CA220E00F7A00689731 /* GoogleService-Info.plist */,
 			);
 			path = "LiquidMeister v2";
+			sourceTree = "<group>";
+		};
+		9B970C8520DFE26900689731 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9B970C7220DFE24800689731 /* LoginVC.swift */,
+				9B970CA020E00E7900689731 /* HomeVC.swift */,
+				9B970CB520E2C57B00689731 /* SettingsVC.swift */,
+				9B970CB720E2C58400689731 /* LibraryVC.swift */,
+				9BFCC41E20E4234E00906711 /* EditVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9B970C8620DFE28100689731 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9B970C9420DFEEDC00689731 /* Extensions */,
+				9B970C8F20DFE4F300689731 /* Managers */,
+				9B970C8720DFE2A400689731 /* Bottle.swift */,
+				9B970C8920DFE2AE00689731 /* Customer.swift */,
+				9B970C8D20DFE2BD00689731 /* Inventory.swift */,
+				9B970C9B20E006E900689731 /* Item.swift */,
+				9B970C8B20DFE2B400689731 /* Recipe.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		9B970C8F20DFE4F300689731 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				9B970C9220DFE55E00689731 /* Constants.swift */,
+				9B970C9020DFE50300689731 /* DataManager.swift */,
+				9B250E5C20ECC2C500841044 /* MailManager.swift */,
+				9B22399D20F5438E00C2CBF6 /* NotificationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		9B970C9420DFEEDC00689731 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9B970C9520DFEEE900689731 /* ArrayExtension.swift */,
+				9B970C9720DFEF6800689731 /* DictionaryExtension.swift */,
+				9BFCC42A20E7F18100906711 /* DoubleExtension.swift */,
+				9B970CAB20E189D100689731 /* StringExtension.swift */,
+				9B970CA920E1297C00689731 /* UIDeviceExtension.swift */,
+				9BFCC42820E7C36800906711 /* UITableViewExtension.swift */,
+				9B970C9E20E00BAC00689731 /* UIViewExtension.swift */,
+				9B970CA720E127AB00689731 /* UIViewControllerExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9B970C9D20E00A6400689731 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9B970CB320E27ABA00689731 /* IngredientCell.swift */,
+				9BFCC42020E4686F00906711 /* LibraryCell.swift */,
+				9BFCC42420E5394B00906711 /* RecipeCell.swift */,
+				9BFCC41A20E3C73F00906711 /* LMButton.swift */,
+				9BD3B18420EFDDF100C3F0DE /* LMCalculatorView.swift */,
+				9BFCC42620E70E2400906711 /* LMPickerView.swift */,
+				9BFCC41C20E3C9AD00906711 /* LMSegmentedControl.swift */,
+				9BFCC41820E3BFD900906711 /* LMTextField.swift */,
+				9BFCC42220E50FDE00906711 /* LMTextView.swift */,
+				9B970CAD20E18CF100689731 /* LMTitleBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9B970CA420E1275100689731 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				9B970CA520E1276300689731 /* Alertable.swift */,
+				9BDC9D6120F116B200E6DC37 /* Connection.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		9BB2297620ED0D72003F8AB3 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				9BB2297720ED0D92003F8AB3 /* SlideInPresentationAnimator.swift */,
+				9BB2297920ED0DAD003F8AB3 /* SlideInPresentationController.swift */,
+				9BB2297B20ED0DCB003F8AB3 /* SlideInPresentationManager.swift */,
+			);
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +264,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B970C8220DFE24B00689731 /* Build configuration list for PBXNativeTarget "LiquidMeister v2" */;
 			buildPhases = (
+				1DA7B925C92BFC8E7F5F3DC4 /* [CP] Check Pods Manifest.lock */,
 				9B970C6920DFE24800689731 /* Sources */,
 				9B970C6A20DFE24800689731 /* Frameworks */,
 				9B970C6B20DFE24800689731 /* Resources */,
+				188DFA47F2E1EAE8443038EB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -99,6 +291,11 @@
 				TargetAttributes = {
 					9B970C6C20DFE24800689731 = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -127,20 +324,105 @@
 			files = (
 				9B970C7E20DFE24B00689731 /* LaunchScreen.storyboard in Resources */,
 				9B970C7B20DFE24B00689731 /* Assets.xcassets in Resources */,
+				9B970CA320E00F7A00689731 /* GoogleService-Info.plist in Resources */,
 				9B970C7620DFE24800689731 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		188DFA47F2E1EAE8443038EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LiquidMeister v2/Pods-LiquidMeister v2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BetterSegmentedControl/BetterSegmentedControl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BetterSegmentedControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LiquidMeister v2/Pods-LiquidMeister v2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DA7B925C92BFC8E7F5F3DC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LiquidMeister v2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9B970C6920DFE24800689731 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B970C7320DFE24800689731 /* ViewController.swift in Sources */,
-				9B970C7920DFE24800689731 /* LiquidMeister_v2.xcdatamodeld in Sources */,
+				9B970C7320DFE24800689731 /* LoginVC.swift in Sources */,
+				9B970CAE20E18CF100689731 /* LMTitleBar.swift in Sources */,
+				9B970C9120DFE50300689731 /* DataManager.swift in Sources */,
+				9BFCC42520E5394B00906711 /* RecipeCell.swift in Sources */,
+				9B970CA820E127AB00689731 /* UIViewControllerExtension.swift in Sources */,
+				9BFCC42720E70E2400906711 /* LMPickerView.swift in Sources */,
+				9BB2297A20ED0DAD003F8AB3 /* SlideInPresentationController.swift in Sources */,
+				9B970C8A20DFE2AE00689731 /* Customer.swift in Sources */,
+				9BD3B18520EFDDF100C3F0DE /* LMCalculatorView.swift in Sources */,
+				9B970C9620DFEEE900689731 /* ArrayExtension.swift in Sources */,
+				9BDC9D6220F116B200E6DC37 /* Connection.swift in Sources */,
+				9BFCC41920E3BFD900906711 /* LMTextField.swift in Sources */,
+				9B970CA120E00E7900689731 /* HomeVC.swift in Sources */,
+				9B250E5D20ECC2C500841044 /* MailManager.swift in Sources */,
+				9BFCC41B20E3C73F00906711 /* LMButton.swift in Sources */,
+				9BFCC41D20E3C9AD00906711 /* LMSegmentedControl.swift in Sources */,
+				9B970C8820DFE2A400689731 /* Bottle.swift in Sources */,
+				9B970C8C20DFE2B400689731 /* Recipe.swift in Sources */,
+				9B970CB620E2C57B00689731 /* SettingsVC.swift in Sources */,
+				9BB2297820ED0D92003F8AB3 /* SlideInPresentationAnimator.swift in Sources */,
+				9B970CAC20E189D100689731 /* StringExtension.swift in Sources */,
+				9B970C9F20E00BAC00689731 /* UIViewExtension.swift in Sources */,
+				9BB2297C20ED0DCB003F8AB3 /* SlideInPresentationManager.swift in Sources */,
+				9BFCC42320E50FDE00906711 /* LMTextView.swift in Sources */,
+				9B970CB420E27ABA00689731 /* IngredientCell.swift in Sources */,
+				9B970CA620E1276300689731 /* Alertable.swift in Sources */,
+				9BFCC42120E4686F00906711 /* LibraryCell.swift in Sources */,
+				9BFCC42B20E7F18100906711 /* DoubleExtension.swift in Sources */,
+				9BFCC42920E7C36800906711 /* UITableViewExtension.swift in Sources */,
+				9B970C9C20E006E900689731 /* Item.swift in Sources */,
+				9B970C8E20DFE2BD00689731 /* Inventory.swift in Sources */,
+				9B970C9820DFEF6800689731 /* DictionaryExtension.swift in Sources */,
+				9BFCC41F20E4234E00906711 /* EditVC.swift in Sources */,
+				9B970CB820E2C58400689731 /* LibraryVC.swift in Sources */,
+				9B22399E20F5438E00C2CBF6 /* NotificationManager.swift in Sources */,
+				9B970CAA20E1297C00689731 /* UIDeviceExtension.swift in Sources */,
 				9B970C7120DFE24800689731 /* AppDelegate.swift in Sources */,
+				9B970C9320DFE55E00689731 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +564,10 @@
 		};
 		9B970C8320DFE24B00689731 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9315DC1C4D6A9FFD40CFCAF6 /* Pods-LiquidMeister v2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "LiquidMeister v2/LiquidMeister v2.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96SB47X67B;
 				INFOPLIST_FILE = "LiquidMeister v2/Info.plist";
@@ -291,17 +575,19 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.CraunicProductions.LiquidMeister-v2";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CraunicProductions.LiquidMeister;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		9B970C8420DFE24B00689731 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B66AE5E1D365FE92C1C217BB /* Pods-LiquidMeister v2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "LiquidMeister v2/LiquidMeister v2.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96SB47X67B;
 				INFOPLIST_FILE = "LiquidMeister v2/Info.plist";
@@ -309,10 +595,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.CraunicProductions.LiquidMeister-v2";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CraunicProductions.LiquidMeister;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -338,19 +624,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		9B970C7720DFE24800689731 /* LiquidMeister_v2.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				9B970C7820DFE24800689731 /* LiquidMeister_v2.xcdatamodel */,
-			);
-			currentVersion = 9B970C7820DFE24800689731 /* LiquidMeister_v2.xcdatamodel */;
-			path = LiquidMeister_v2.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 9B970C6520DFE24800689731 /* Project object */;
 }
